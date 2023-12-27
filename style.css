@@ -1,0 +1,104 @@
+body {
+    background-color: #87CEEB;
+    margin: 0;
+}
+#heading {
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BFBFBF;
+    width: 100%;
+}
+#heading-L{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+}
+
+#heading-R{
+    display: flex;
+    flex-direction: row;
+    margin-right:2.5%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#button1{
+    margin-right: 2.5%;
+}
+#button2 {
+    margin-right: 2.5%;
+}
+#button3 {
+    margin-right: 2.5%;
+}
+#top {
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: top;
+    padding: 10px;
+    display: inline;
+    gap: 2rem;
+    display: grid;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "TopOne TopTwo TopThree"
+    ;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+}
+#desc1 {
+    grid-area: TopOne;
+}
+#desc2 {
+    grid-area: TopTwo;
+    border-radius: 50%;
+    border: solid navy;
+    padding: 3px;
+    border-width: 4px;
+    background-color: aqua;
+    animation: face infinite 3s;
+}
+#desc3 {
+    grid-area: TopThree;
+}
+#projects {
+    border-color: navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    align-items: center;
+    width: 99%;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#replacement {
+    display: none;
+}
+img {
+    border-radius: 10px;
+}
+@keyframes face {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
