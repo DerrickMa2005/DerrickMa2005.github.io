@@ -7,6 +7,46 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+    <div id="heading">
+        <div id="heading-L"><div id="heading1">Derrick Ma's Website</div></div>
+        <div id="heading-R">
+            <a href="home.html" id="button1" class="headingbutton">Home</a>
+            <a href="aboutme.html" id="button2" class="headingbutton">About Me</a>
+            <a id ='button3' class="headingbutton clickedbutton">Projects</a>
+            <a href="feedback.html" id ='button4' class="headingbutton">Feedback</a>
+        </div>
+    </div>
+    <div id="body2">
+       <video class="projectvid" id="project1">
+         <source src="Videos/Halloween Website Video.mp4" type="video/mp4">
+         Your browser does not support HTML video.
+        </video>
+        <div class="languages">
+            <div class="tag">HTML</div>
+            <div class="tag">CSS</div>
+            <div class="tag">JavaScript</div>
+        </div>
+        <div class="title2">Halloween Website</div>
+        <div class="description2">This was a Halloween Website created by a team of me and 2 teammates. 
+            This website provides story and asks the viewer if the story is real or fake and display the viewer's score once they responded to each story. 
+            You can hover over the image above to view the website's functionality.
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footerL">2024 Created by Derrick Ma</div>
+        <div id="footerR">
+            <a href="https://www.linkedin.com/in/derrickma2005/" target="_blank"><img src="Images/Linkedin.png" width="50px"></a>
+            <a href="https://github.com/DerrickMa2005" target="_blank"><img src="Images/GitHub.png" width="50px"></a>
+        </div>
+    </div>
+    <script>
+        document.getElementById("project1").onmouseover = function() {
+            this.play();
+        };
+        document.getElementById("project1").onmouseout = function() {
+            this.pause();
+        };
+    </script>
 </body>
 </html>

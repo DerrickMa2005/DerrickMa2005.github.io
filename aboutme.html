@@ -7,6 +7,83 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+    <div id="heading">
+        <div id="heading-L"><div id="heading1">Derrick Ma's Website</div></div>
+        <div id="heading-R">
+            <a href="home.html" id="button1" class="headingbutton">Home</a>
+            <a id="button2" class="headingbutton clickedbutton">About Me</a>
+            <a href="projects.html" id ='button3' class="headingbutton">Projects</a>
+            <a href="feedback.html" id ='button4' class="headingbutton">Feedback</a>
+        </div>
+    </div>
+    <div id="body1">
+        <div id="about">
+            <span id="mydescription">
+                <span class="title1" class="widthlimiter1">About Me &zwnj; </span>
+                <span class="description1" class="widthlimiter1">Throughout my childhood, I was fascinated by how computer programs and video games functioned. 
+                    I spent my middle school days studying in my school's computer lab making rudimentary games in Scratch before going on to learn more formal programming languages such as HTML, CSS, and Python. 
+                    Later, I became more interested in seeing how robots worked in tandem with programming which led me to joining my high school's robotics team and becoming the Construction Leader of the team. 
+                    However, it was also during high school when I began working with machine learning tools and discovered my passion for working with machine learning. 
+                    My academic journey has led me to Stony Brook where I continue to study Computer Science. 
+                    <br> <br>
+                    In my free time, I enjoy reading science fiction books and playing video games. 
+                    My current favorite sci-fi series is Dune which my friends have heard me ramble on about for hours.
+                    I also enjoy being active and can often be found in the gym working out or playing badminton with my friends.
+                </span>
+            </span>
+            <img src="Images/Tata.png" id="tatapicture">
+        </div>
+        <div id="experience">
+            <span id="work">Work Experience</span>
+            <span id="extracurricular">Extracurricular</span>
+        </div>
+        <div id="work2">
+            <ul>
+                <li>First Grade Teacher's Assistant at CAPA Summer Camp<br><span class="years">2022 - 2023</span></li>
+            </ul>
+        </div>
+        <div id="extracurricular2">
+            <ul>
+                <li>Freshman Representative of the SBU Web Development Club<br><span class="years">2024 - Present</span></li>
+                <li>Vice Chair of Data and Analysis of the Seawolf Philanthropy Council<br><span class="years">2023 - Present</span></li>
+                <li>Construction Leader of the Cardinal Robotics Team<br><span class="years">2020 - 2023</span></li>
+            </ul>
+        </div>
+        <hr>
+        <div id="botcaption">
+            <span id="resume">
+                <span class="title1">Resume &zwnj;  </span>
+                <span class="description1" id="widthlimiter2">For a more detailed look at my experiences, I have provided a link to my resume on the right.</span>
+            </span>
+            <span id="resumebuttonouter">
+                <a href="https://docs.google.com/document/d/1FN9f9RDfJrUz_nZYFRjMZKyhnVNbeJKjkKTyj4jnE0Q/edit?usp=sharing" target="_blank" ><button id="resumebutton"><img src="Images/GoogleDocsLogo.png" height="75%"><p id="buttontext">Resume</p></button></a>
+            </span>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footerL">2024 Created by Derrick Ma</div>
+        <div id="footerR">
+            <a href="https://www.linkedin.com/in/derrickma2005/" target="_blank"><img src="Images/Linkedin.png" width="50px"></a>
+            <a href="https://github.com/DerrickMa2005" target="_blank"><img src="Images/GitHub.png" width="50px"></a>
+        </div>
+    </div>
+    <script>
+        document.getElementById("work").onclick = function() {
+            if (document.getElementById("work2").style.display != "flex") {
+                document.getElementById("work2").style.display = "flex";
+                document.getElementById("work").style.textDecoration = "underline #6CB4EE";
+                document.getElementById("extracurricular2").style.display = "none";
+               document.getElementById("extracurricular").style.textDecoration = "none";
+            }
+        };
+        document.getElementById("extracurricular").onclick = function() {
+            if (document.getElementById("extracurricular2").style.display != "flex") {
+                document.getElementById("extracurricular2").style.display = "flex";
+                document.getElementById("extracurricular").style.textDecoration = "underline #6CB4EE";
+                document.getElementById("work2").style.display = "none";
+                document.getElementById("work").style.textDecoration = "none";
+            }
+        };
+    </script>
 </body>
 </html>
