@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleHorror.css">
+</head>
+<body>
+    <audio id="spook1" src="sounds/Spooky_Sound1.mp3" preload="auto"></audio>
+    <audio id="spook2" src="sounds/Fnaf_Jumpscare.mp3" preload="auto"></audio>
+    <audio id="spook3" src="sounds/Sinister_Laugh.mp3" preload="auto"></audio>
+    <audio id="win" src="sounds/Yippee.mp3" preload="auto"></audio>
+    <div id="top">
+        <nav class="button">Home</nav>
+        <nav class="button">History</nav>
+        <nav class="button">Horror Stories</nav>
+        <nav class="button">Candy</nav>
+    </div>
+    <div id="description">Can you guess if the following stories are chillingly <b>real</b> anecdotes or if they're just <b>fake</b> ghost stories?</div>
+    <div>
+    <div class="story">
+        <div class="read">
+            <img src="Images/Knife.png" class="image">
+            <div>
+            <p>Elisa Lam was last seen on January 31, 2013 in the lobby of the Cecil Hotel in downtown Los Angeles. She was vacationing through the West Coast, documenting the trip on her blog, and checking in with her parents every day. On January 31 those calls stopped. Lam had vanished. Soon the police were involved and her parents arrived to help with the search.
+            They had nothing. That February, LAPD released elevator surveillance footage of Lam before her disappearance. The footage shows Lam behaving strangely in the elevator, appearing to talk with invisible people, peering around the corner of the door, crouching in the corner, and opening and closing the door.</p>
+            <p>Around that time, hotel guests started reported weird things happening with the Cecil Hotel water supply. "The shower was awful," said Sabina Baugh, who spent eight days there during the investigation. "When you turned the tap on, the water was coming black first for two seconds and then it was going back to normal."
+                The tap water "tasted horrible," Baugh said. "It had a very funny, sweety, disgusting taste. It's a very strange taste. I can barely describe it." 
+                But for a week, they never complained. "We never thought anything of it," she said. "We thought it was just the way it was here."</p>
+            <p>
+                On the morning of February 19, a hotel employee climbed to the roof and used a ladder to investigate the hotel's water storage tanks. That's where authorities found the decomposing, naked body of Lam, whose personal items were found nearby. After an autopsy, her death was labeled accidental.
+            </p>
+            </div>
+        </div>
+        <div class="question">Is this story <b class="true">real</b> or <b class="false">fake?</b></div>
+        <div class="select">
+            <button class="true" onClick='revealAnswer(1, true)'>Real</button>
+            <button class="false" onClick='revealAnswer(1, false)'>Fake</button>
+        </div>
+        <div id='response1' class="response true">
+            <div class="answer">This was a real story.</div>
+            <div class="source">Source: <a href="https://www.esquire.com/news-politics/news/a39179/five-real-life-horror-stories/" target="_blank">esquire.com</a></div>
+        </div>
+    </div>
+    </div>
+    <div class="story">
+        <div class = "read">
+            <div>
+            <p>In a quiet suburban neighborhood of Willowbrook, New York, a woman has reported a chilling ordeal of being stalked by an unknown assailant. Jenna Smith, a local resident, has come forward with disturbing details of a relentless and unsettling pursuit that haunted her during that year.</p>
+            <p>According to her account, Jenna began to feel an unnerving presence while jogging in the nearby Willowbrook Park. Reports of unusual occurrences, including tampered mail and unexplained noises, soon escalated to the appearance of a shadowy figure near her property. The situation intensified when Jenna found a threatening message scrawled in red ink on her front door.</p>
+            <p>In response to escalating concerns, Jenna installed security cameras around her residence in Willowbrook, capturing elusive glimpses of a hooded stalker lingering on her property. The footage revealed a figure that had haunted her nights and fueled her growing paranoia.</p>
+            <p>The case took a significant turn when law enforcement authorities apprehended the suspect in the act. Identified as Mark Johnson, the individual confessed to a long-standing infatuation with Jenna, admitting to stalking her.</p>
+            <p>Mark has been charged with multiple offenses, including harassment, trespassing, and invasion of privacy, and was subsequently sentenced to prison. This unsettling case left the community of Willowbrook shaken at the time, emphasizing the need for heightened vigilance and awareness of personal safety in the neighborhood.</p>
+            </div>
+            <img src="https://cdn-icons-png.flaticon.com/512/2709/2709318.png" class="image">
+        </div>
+        <div class="question">Is this story <b class="true">real</b> or <b class="false">fake?</b></div>
+        <div class="select">
+            <button class="true" onClick='revealAnswer(2, false)'>Real</button>
+            <button class="false" onClick='revealAnswer(2, true)'>Fake</button>
+        </div>
+        <div id='response2' class="response">
+            <div class="answer false">This was a fake story.</div>
+            <div class="source">This story was generated by ChatGPT.</div>
+        </div>
+    </div>
+    <div class="story">
+        <div class="read">
+            <img src="https://cdn-icons-png.flaticon.com/512/5346/5346831.png" class="image">
+            <div>
+            <p>On his way to get married, a military man and his best man set off on an 800-mile road trip from Camp Lejeune in North Carolina to Lafayette, Indiana.</p>
+            <p>It's 1 a.m. on a cold January night in 2014 and the man recalled that the weather was bad and temperatures were in "the negative double digits." As the pair close in on Indianapolis, they discover they have no money to pay for gas to refuel the car and are about to run out.</p>
+            <p>"Growing up in the trucking industry with my dad, I decided to stop at a truck stop," the man explains. But because the main interstates were shut down due to the weather, they had get off the highway and search for a truckstop along the back roads instead.</p>
+            <p>"We found a smaller truck stop. It had one truck and it was just kind of strange. It was just a blacked out truck with a blacked out trailer. There was no real markings on it, nothing distinguishable," he says.</p>
+            <p>They went in, hoping a clerk or waitress would spot them a few dollars for gas enough to make it to Indianapolis, at which time they'd go to the bank, take out cash and pay back the loan. 
+            Inside they found a tidy diner, occupied by a waitress, cook and a lone truck driver.</p>
+            <p>"I went inside, talked to this driver and he bought us a cup of coffee. We sat there and talked for about 30 minutes about what was going on and why we were headed, where we were and what we were doing. And he gave us 20 bucks for gas. I went outside, pumped our gas, came back in and I told him, 'Hey, I really appreciate it. I'll be back.'"</p>
+            <p>Making good on his word, the man got cash from the bank upon arriving in Indianapolis and returned to the diner.</p>
+            <p>"When we arrive at about 10 o'clock in the morning, it's boarded up," he says. "It looks like it's been abandoned for years and the truck's gone. But we had just been in there."
+            They pull in anyway and find a police officer parked in the lot. They explain what happened just hours before to which the cop chuckles and replies, "Oh, you met the ghost of three."</p>
+            <p>"So, two military members converse, had a cup of coffee with, interacted with, three people at a diner that had a fuel pump. I got $20 worth of gas," says the man. "When I came back, it been boarded up for, if I remember correctly, the cop said it had been boarded up for the last 25 years."</p>
+            </div>
+        </div>
+        <div class="question">Is this story <b class="true">real</b> or <b class="false">fake?</b></div>
+        <div class="select">
+            <button class="true" onClick='revealAnswer(3, true)'>Real</button>
+            <button class="false" onClick='revealAnswer(3, false)'>Fake</button>
+        </div>
+        <div id='response3' class="response">
+            <div class="answer true">This was a true story.</div>
+            <div class="source">Source: <a href="https://www.today.com/life/holidays/ghost-stories-rcna41307" target="_blank">Today.com</a></div>
+        </div>
+    </div>
+    <div class="story">
+        <div class="read">
+            <div>
+            <p>In 1985, the old army hospital built in the late 1890s was part of our Sandy Hook lab. During that time we were conducting bluefish research in that building and staff members working the night shift would record fish swim times each hour to ground truth video recordings documenting swimming behavior. I had only been working at the lab a couple of months when I was asked to participate in this research. My office was on the first floor and the door to enter the research aquarium was in the basement.</p>
+            <p>Connecting these two areas was a set of stairs to the basement, but to get there meant passing a large staircase to the second floor. I started hearing what I thought was whispered voices coming from upstairs - not every time I passed the large staircase, and not always clearly. I ignored it, thinking that I maybe imagined it. By midnight, I had decided to just stay in the basement aquarium room and sleep on the old hospital couch rather than walk through the building and past the large staircase.</p>
+            <p>Since I was new and wanted to keep my job, I continued sleeping in the basement whenever I had to work the night shift, about once every six weeks. That was until the lab building burned down in September of 1985. Scary thing was, an arsonist had lit the fire on the night I was supposed to work. I fortunately had switched my shift to another night. After the fire, when a coworker and I were scavenging equipment from the lab ruins, I remember thinking to myself, “Finally, the building will be quiet.”</p>
+            </div>
+            <img src="https://static.vecteezy.com/system/resources/previews/018/817/670/original/cartoon-flask-icon-png.png" class="image">
+        </div>
+    <div class="question">Is this story <b class="true">real</b> or <b class="false">fake?</b></div>
+    <div class="select">
+        <button class="true" onClick='revealAnswer(4, true)'>Real</button>
+        <button class="false" onClick='revealAnswer(4, false)'>Fake</button>
+    </div>
+    <div id='response4' class="response">
+        <div class="answer true">This was a true story.</div>
+        <div class="source">Source: <a href="https://www.fisheries.noaa.gov/feature-story/six-spooky-and-odd-science-stories-keep-you-night" target="_blank">National Oceanic and Atmospheric Administration</a></div>
+    </div>
+    </div>
+    <div class="story">
+        <div class="read">
+          <div>
+          <p>Alex Higue decided to go on a hike by himself. Something he was not very used to. The whole day was normal. Trees and bushes engulfed his surroundings. He enjoyed being outdoors in the mountains. Nothing seemed strange to him, that was until he was making his way back to his car. He figured an eight hour hike was good enough. The sky was already getting dark and he needed to get back, fast. What was odd was how much he didn't recognize the trail back. He began to panic.</p>
+          <p>Night had already taken over and all he had was a flashlight and no clue on how to get back. He knew it was already too late and too dangerous to keep going through the perilous forest. He began to worry that he would have no shelter for the night when almost luckily enough, he stumbled across a broken-down cabin. It was dark, and seemed like no one had visited it in years, but he knew it was the only place where he could rest until daylight, especially since his flashlight was running out of battery.</p>
+          <p>He knocked on the door a few times but no one answered, so he let himself in where strangely enough, a perfect bed fitted for one person awaited him in the center. He knew that if the owner came back he could explain himself, he was sure that the owner wouldn’t mind, or was even probably dead. So he went ahead and got himself comfortable in bed. As he tried to sleep, he couldn’t ignore the collection of paintings around the room; portraits of strange looking people all peering at him, each wearing a smile that sent chills up his spine. Not too long after his  exhaustion from the hike got the best of him and he was able to ignore the faces.</p>
+          <p>The next morning he got up early and was shocked to see that there were no paintings around the room, but windows.</p>
+          </div>
+          <img src="https://cdn.pixabay.com/photo/2013/07/13/13/24/window-160952_1280.png" class="image">
+        </div>
+    <div class="question">Is this story <b class="true">real</b> or <b class="false">fake?</b></div>
+    <div class="select">
+        <button class="true" onClick='revealAnswer(5, false)'>Real</button>
+        <button class="false" onClick='revealAnswer(5, true)'>Fake</button>
+    </div>
+    <div id ='response5' class="response">
+        <div class="answer false">This was a fake story.</div>
+        <div class="source">Source: <a href="https://dyatmika.org/students/my-favourite-short-scary-stories/" target="_blank">Dyatmika.org</a></div>
+    </div>
+    </div>
+    <div id="goodJob">
+        <div class="question">Congratuations! You got a score of <span id="scoreText"></span> out of 5!</div>
+    </div>
+    <script>
+        score = 0;
+        var checks = {};
+        checks["check1"] = true;
+        checks["check2"] = true;
+        checks["check3"] = true;
+        checks["check4"] = true;
+        checks["check5"] = true;
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }   
+        function revealAnswer(num, check) {
+            document.getElementById("response" + num).style.display ='flex';
+            if (checks["check" + num]) {    
+                if (check) {
+                    score += 1;
+                }
+                document.getElementById('spook' + Math.floor(Math.random() * 3 + 1)).play();
+                checks["check" + num] = false;
+            }
+            if (!checks["check1"] && !checks["check2"] && !checks["check3"] && !checks["check4"] && !checks["check5"]){
+                document.getElementById("scoreText").innerHTML = score;
+                document.getElementById("goodJob").style.display ='flex';
+                document.getElementById("win").play();
+            }
+        }
+    </script>
+</body>
+</html>
