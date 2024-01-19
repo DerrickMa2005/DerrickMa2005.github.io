@@ -453,9 +453,10 @@ img {
     left: -18.4%;
 }
 .projectvid {
-    width: 55%;
+    width: 45rem;
     border-radius: 10px;
     border: #BFBFBF solid 0.6rem;
+    height: 25rem;
 }
 .description2 {
     max-width: 57%;
