@@ -1,5 +1,5 @@
 localStorage.setItem("currentMode", "dark")
-document.getElementById("body").setAttribute("data-bs-theme", currentMode);
+document.getElementById("body").setAttribute("data-bs-theme", localStorage.getItem("currentMode"));
 document.getElementById("lightswitchborder").onclick = function() {
     if (localStorage.getItem("currentMode") == "light") {
         localStorage.setItem("currentMode", "dark");
